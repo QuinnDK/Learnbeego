@@ -15,5 +15,5 @@ func (this *Logincontroller) Get() {
 func (this *Logincontroller) Post() {
 	user := this.GetString("user")
 	pwd := this.GetString("pwd")
-	this.Ctx.WriteString("user:" + user + "password:" + pwd)
+	this.Ctx.WriteString("user=" + user + "password=" + pwd)
 }
