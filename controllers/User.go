@@ -5,12 +5,12 @@ import (
 	_ "github.com/astaxie/beego/session/mysql"
 )
 
-const (
-	DEFAULT_DB = "default"
-
-	// 设置数据库 driver
-	MYSQL_DRIVER = "mysql"
-)
+//const (
+//	DEFAULT_DB = "default"
+//
+//	// 设置数据库 driver
+//	MYSQL_DRIVER = "mysql"
+//)
 
 //func RegisterDB() error {
 //	dbUser := beego.AppConfig.String("mysqluser")
