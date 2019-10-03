@@ -22,6 +22,6 @@ func (this *Uploadcontroller) Post() {
 	if err != nil {
 		this.Ctx.WriteString("上传失败")
 	} else {
-		this.Ctx.WriteString("上传成功")
+		this.Ctx.WriteString("上传成功 ")
 	}
 }
